@@ -1,0 +1,153 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header */
+.main-header {
+    /* background-image: url("../images/heder_img.jpeg");
+    background-repeat: no-repeat; */
+    background: #333;
+    color: #fff;
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+/* Navigation */
+.main-nav {
+    background: #444;
+    padding: 0.5rem 0;
+}
+
+.nav-list {
+    text-transform: capitalize;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+}
+
+.nav-link {
+    color: #d9d9e1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #323231;
+}
+
+/* Sections */
+section {
+    padding: 2rem 0;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 10%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.about-text {
+    line-height: 1.8;
+}
+
+/* Profiles */
+.profiles-url {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profiles-url li a{
+    text-decoration: none;
+    color: #323231
+    ;
+    
+}
+
+/* Portfolio */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.portfolio-item {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.submit-button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s ease-out;
+}
+
+.submit-button:hover {
+    background: #60605e;
+}
+
+/* Footer */
+.main-footer {
+    background: #333;
+    color: #d9d9e1;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
